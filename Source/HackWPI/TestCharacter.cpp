@@ -61,5 +61,5 @@ void ATestCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 void ATestCharacter::CreateProjectile() {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("PRESSED THE SPACEBAR"));
-	TestSpawnObject::SpawnDefault
+	//TestSpawnObject::SpawnDefault
 }
